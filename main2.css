@@ -1,0 +1,41 @@
+@media only screen and (max-width: 450px){
+  .html{
+    font-size: 50%;
+  }
+  .heading img{
+    height: 3rem;
+  }
+  .heading h3{
+    font-size: 3rem;
+  }
+  #menu-btn{
+    display: inline-block; 
+  }
+}
+
+@media only screen and (max-width:768px){
+  .home-bg{
+    background-position:left;
+  }
+  .home-bg .home{
+    justify-content: center;
+  }
+  .home-bg .home .content h3{
+    font-size: 4rem;
+  }
+  .about .content h3{
+    font-size: 3rem;
+  }
+  .header .NAV .navbar{
+    visibility: hidden;
+  }
+  #menu-btn{
+    display: block; 
+  }
+}
+
+@media only screen and (max-width:991px){
+  html{
+    font-size: 55%;
+  }
+}
